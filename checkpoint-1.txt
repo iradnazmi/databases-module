@@ -1,0 +1,86 @@
+#### Exercises
+
+> 1
+
+A: 
+   - "A Clockwork Orange" : string
+   - 42 : integer
+   - 09/02/1945 : date
+   - 98.7 : float
+   - $15.99 : money
+
+> 2
+
+A: A database would be used when we need to store and retrieve data and would need the data to persist beyond the end of a program and outside of an application. A text file would be used when a human needs to read it such as a javascript file which we use a editor to read.
+
+> 3
+
+A: SQL is a declarative language rather than a procedural language like Java.
+
+> 4
+
+A: The tables are the main piece of a database system and are the way they display and organize data. SQL is used to get results from the data, update the data, and make new structures to store the data.
+
+> 5
+
+A: Table is the structure that databases use to display its data, similar to a spreadsheet. There are columns which define what the data represents, and rows which make up a complete conceptual unit in the table. Each intersection between columns and rows is a cell which contains a value, which is some piece of information that the column name describes.
+
+> 6 
+
+A: Tables can use strings, numbers, and dates.
+
+> 7
+
+A: 
+
+- What are the amounts and corresponding dates from all the payments? 
+
+   - date           amount
+
+   - '2016-05-01'   1500.00
+
+   - '2016-05-10'   37.00
+
+   - '2016-05-15'   124.93
+
+   - '2016-05-23'   54.72
+
+- Which amounts from payments which are greater than 500? 
+
+   - amount
+   
+   - 1500.00
+   
+- What is all the information in payments for Mega Foods?
+
+   - date           payee          amount        memo
+ 
+   - '2016-05-15'   'Mega Foods'   124.93        'Groceries'
+
+> 8
+
+````
+SELECT email, sign-up
+
+FROM users
+
+WHERE name = 'DeAndre Data';
+````
+
+````
+SELECT userid
+
+FROM users
+
+WHERE email = 'aleesia.algorithm@uw.edu';
+````
+
+````
+SELECT *
+
+FROM users
+
+WHERE userid = 4;
+````
+
+ 
